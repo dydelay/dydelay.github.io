@@ -1,0 +1,91 @@
+/* 全局样式 */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #000000e4, #dfc8d6);
+    color: #fff;
+}
+
+/* 导航条样式 */
+header {
+    background-color: rgba(235, 66, 128, 0.5);
+    padding: 10px;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-left: -200px;
+    height: 100%
+}
+
+.nav-links {
+    display: flex;
+    margin-left: 200px;
+    height: 100%
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: rgba(252, 43, 120, 0.5);
+}
+
+
+/* 工具介绍样式 */
+.tool-section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+.tool-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ee2b8c;
+    text-shadow: 2px 2px 4px rgba(118, 83, 98, 0.5);
+}
+.tool-description {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.tool-link {
+    display: inline-block;
+    background-color: #cd2182;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+.tool-link:hover {
+    background-color: #000;
+}
+.tool-recommendation {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* 页脚样式 */
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: auto;
+}
+footer p {
+    margin: 0;
+}
